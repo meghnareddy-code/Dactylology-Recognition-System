@@ -1,1 +1,6 @@
-# Movie-Reviews-Sentiment-Analyser
+# Dactylology Recognition System
+
+Sign Language is one of the oldest and most natural form of language for interaction between normal and deaf & mute people, but since most people do not know sign language and interpreters are very difficult to find, we have come up with a real time method using neural networks for fingerspelling based American sign Language. Sign language is a visual language and consists of 3 major components: Fingerspelling, Word level vocabulary and Facial expressions.
+In our project we basically focus on producing a model which can recognize Fingerspelling based hand gestures in order to form a complete word by combining each gesture.
+We follow 4 steps in the hand gesture recognition: i) Data Acquisition, ii) Data preprocessing, iii) Feature extraction iv) Gesture classification. We aim to collect 600 RGB images each for 26 alphabets and apply a filter called Gaussian blur to each of the images. This filter gives a black& white outline of the hand gesture which makes it easier for computation. The images are then passed through convolution neural network classifier which predicts the class of the hand gestures. Our method provides 95% accuracy for the 26 letters of the alphabet
+
